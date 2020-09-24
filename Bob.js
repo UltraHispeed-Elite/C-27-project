@@ -19,7 +19,7 @@ class Bob {
       translate(pos.x,pos.y);
       rectMode(CENTER);
       fill("purple");
-      ellipse(pos.x, pos.y, this.r);
+      ellipse(0,0, this.r);
       pop ()
     }
   };
